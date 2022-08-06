@@ -11,44 +11,44 @@ const speakers = [
   {
     name: 'Benard patcho',
     un: '@benard',
-    profile: '../images/firstimg.png',
+    profile: '../images/alewaLogo.png',
     tought:
       "Utop Web is dollar for dollar the best money I've spent on continued education as a developer. So much A+ content.",
   },
   {
     name: 'Meshu Amare',
     un: '@meshu',
-    profile: '../images/secondimg.png',
+    profile: '../images/myethio.png',
     tought:
       'What an incredible XSTATE course you have on @Utop Web @DavidKPiano. Amazing tool and amazing way to reach our brains :D',
   },
   {
     name: 'Surafel Getachew',
     un: '@surafel',
-    profile: '../images/thirdimg.png',
+    profile: '../images/sekelaLogo.png',
     tought:
-      'I’ve been using @Utop Web for years now. It’s crazy seeing it grow over the years and how there’s just so much great content to learn from. I feel like every company should have a subscription for their devs on there. The best bang for your buck.',
+      'I’ve been using @Utop Web for years now. It’s crazy seeing it grow over the years. ',
   },
   {
     name: 'Sonick Mumba',
     un: '@sonick',
-    profile: '../images/fourthimg.png',
+    profile: '../images/fidle.png',
     tought:
-      "OMG @sarah_edo's Intro to Vue course on @Utop Web is *so good*. I've made a few attempts to learn but this is the first time the lightbulb has fully come on. https://t.co/Nwp7QzbyqW",
+      "OMG @sarah_edo's Intro to Vue course on @Utop Web is *so good*. ",
   },
   {
     name: 'Saeqa sultani',
     un: '@saeqa',
-    profile: '../images/fifthimg.png',
+    profile: '../images/telebirrLogo.png',
     tought:
-      "I just completed 'JavaScript: The Hard Parts, v2' by @willsentance on @Utop Web! https://t.co/fB36c8Ohiv No better resource for full understanding Closures, asynchronous JS and classes and prototypes. Thanks @willsentance",
+      "I just completed 'JavaScript: The Hard Parts, v2' by @willsentance on @Utop Web! https://t.co/fB36c8Ohiv No better resource for full understanding Closures.",
   },
   {
     name: 'Sarah edwardo',
     un: '@sarah',
-    profile: '../images/sixthimg.png',
+    profile: '../images/midroc.jpg',
     tought:
-      'Just finished "Accessibility in JavaScript Applications" by @marcysutton on @UtopWeb 🎉 10/10, would recommend! Good pace, great explanations, lots of code examples. Now I\'m excited to make some #a11y improvements to my own projects! 🧠⚙️ https://t.co/gvliKoyehW',
+      'Just finished "Accessibility in JavaScript Applications" by @marcysutton on @UtopWeb 🎉 ',
   },
   {
     name: 'Edmund Ralf',

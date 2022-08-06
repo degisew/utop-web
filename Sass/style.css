@@ -227,7 +227,7 @@ a:focus {
   text-decoration-line: underline;
 }
 
-#feedback :nth-child(n+9) {
+#feedback :nth-child(n+6) {
   display: none;
 }
 
@@ -279,7 +279,8 @@ footer .lets-connect a {
   justify-content: center;
   align-items: center;
   min-height: 700px;
-  width: 100%;
+
+  /* width: 100%; */
   padding: 10px;
 }
 
@@ -430,6 +431,8 @@ footer .inner-sub-div .footer-text p {
   background-color: #151719;
   box-shadow: 0 2px 8px rgba(248, 247, 247, 0.895);
   align-items: center;
+  color: white;
+  height: auto;
   padding: 20px;
 }
 
@@ -440,8 +443,23 @@ footer .inner-sub-div .footer-text p {
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: auto;
   margin: 15px;
   color: rgb(127, 125, 132);
+}
+
+.joinUs-content h1 {
+  display: flex;
+}
+
+.some-txt {
+  display: block;
+  background-color: gainsboro;
+  border: #fff solid 5px;
+  max-width: 400px;
+  text-align: center;
+  padding-top: 15px;
+  height: 80px;
 }
 
 .see-more-btn {
