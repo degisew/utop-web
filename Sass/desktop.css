@@ -1,0 +1,152 @@
+.nav-bar {
+  height: auto;
+  display: flex;
+}
+
+.nav-bar .logo {
+  display: flex;
+}
+
+.nav-bar button {
+  display: none;
+}
+
+.nav-bar .nav-menu {
+  display: flex;
+  margin-top: 15px;
+  float: right;
+  list-style-type: none;
+}
+
+.nav-bar .nav-menu li {
+  margin-right: 20px;
+  border-radius: 15px;
+}
+
+.nav-bar .nav-menu li a {
+  font-size: 20px;
+  color: rgb(173, 169, 169);
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
+}
+
+.nav-bar .nav-menu li :hover {
+  color: white;
+}
+
+.nav-bar .nav-menu .join-now-link {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  text-align: center;
+  width: 120px;
+  height: 30px;
+}
+
+.nav-menu.visible {
+  display: none;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page h1 {
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  color: white;
+}
+
+.home-page h1 strong {
+  font-size: 50px;
+}
+
+.home-page h1 span {
+  font-size: 30px;
+}
+
+.home-page .home-buttons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-page .home-buttons-div button {
+  width: 220px;
+  max-height: 50px;
+  margin-right: 20px;
+}
+
+.joinUs-section {
+  min-height: 750px;
+  font-style: italic;
+}
+
+.bootcamp {
+  display: flex;
+  justify-content: center;
+}
+
+.bootcamp .bootcamp-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.about-us {
+  min-height: 400px;
+}
+
+.about-us p {
+  max-width: 650px;
+}
+
+.about-us-descrptn {
+  padding-top: 20px;
+  min-height: 500px;
+}
+
+.about-us-descrptn p {
+  max-width: 650px;
+}
+
+.feedback-section {
+  display: flex;
+  background-color: rgb(45, 123, 182);
+  min-height: 700px;
+  width: 100%;
+}
+
+.feedback-section .inner-container {
+  display: grid;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.feedback-section .inner-container .cards {
+  width: 250px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.feedback-section .inner-container .cards .profile-name-div {
+  display: flex;
+  padding: 15px;
+}
+
+.feedback-section .inner-container .cards .profile-name-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  padding-right: 10px;
+}
+
+.feedback-section .inner-container .cards .tought {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 120px;
+}
