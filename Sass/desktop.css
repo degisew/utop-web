@@ -25,13 +25,13 @@
 
 .nav-bar .nav-menu li a {
   font-size: 20px;
-  color: rgb(173, 169, 169);
-  -webkit-text-decoration-line: none;
+  color: black;
+  height: 30px;
   text-decoration-line: none;
 }
 
 .nav-bar .nav-menu li :hover {
-  color: white;
+  text-decoration-line: underline;
 }
 
 .nav-bar .nav-menu .join-now-link {
@@ -79,7 +79,7 @@
 }
 
 .joinUs-section {
-  min-height: 750px;
+  min-height: 250px;
   font-style: italic;
 }
 
@@ -113,7 +113,6 @@
 
 .feedback-section {
   display: flex;
-  background-color: rgb(45, 123, 182);
   min-height: 700px;
   width: 100%;
 }
@@ -125,24 +124,25 @@
 }
 
 .feedback-section .inner-container .cards {
-  width: 250px;
+  /* width: 250px; */
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
+
+  /* box-shadow: 0 2px 8px rgba(10, 9, 9, 0.04); */
+
+  /* margin: 10px; */
   background-color: white;
 }
 
 .feedback-section .inner-container .cards .profile-name-div {
-  display: flex;
-  padding: 15px;
+  display: block;
+  padding: 10px;
 }
 
-.feedback-section .inner-container .cards .profile-name-div img {
-  width: 50px;
-  height: 50px;
-  border-radius: 15px;
-  padding-right: 10px;
-}
+/* .feedback-section .inner-container .cards .profile-name-div img {
+  width: 100px;
+  height: 100px;
+  /* padding-right: 10px;
+} */
 
 .feedback-section .inner-container .cards .tought {
   width: -webkit-fit-content;

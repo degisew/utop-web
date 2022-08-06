@@ -6,12 +6,13 @@
 }
 
 body {
-  background-color: rgb(1, 20, 7);
+  background-color: white;
   font-family: "Lato", sans-serif;
 }
 
 .header {
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: auto;
 }
 
@@ -24,16 +25,26 @@ a:focus {
 }
 
 .nav-bar {
-  background-color: rgb(103, 21, 21);
-  position: fixed;
+  background-color: rgb(246, 238, 238);
+  box-shadow: 0 2px 8px rgba(10, 9, 9, 0.26);
+  position: sticky;
   display: block;
   justify-content: space-between;
   width: 100%;
+  min-height: 60px;
+}
+
+#nav-menu-cc {
+  border: 5px solid #ec5242;
+  padding: 8px;
+  width: 25%;
+  color: #ec5242;
 }
 
 .nav-bar .logo {
   padding-left: 10px;
-  color: white;
+  color: black;
+  font-weight: bolder;
   font-size: 40px;
 }
 
@@ -50,44 +61,45 @@ a:focus {
   background-color: transparent;
 }
 
+.courses img {
+  border-radius: 10px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 10px;
+}
+
 .nav-bar button img {
   width: 50px;
   height: 50px;
-}
-
-.empty-div {
-  height: 40px;
-}
-
-.about-empty-div {
-  height: 40px;
 }
 
 .home-page {
   display: flex;
   flex-direction: column;
   min-height: 600px;
-  background-image: url(../images/homebackground.png);
+  background-image: url(../images/main-background-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  width: 100%;
 }
 
 .home-page h1 {
-  width: 100%;
-  text-align: center;
-  line-height: 1.5;
-  color: white;
+  color: #ec5242;
+  font-size: 50px;
+  font-family: "COCOGOOSE", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .home-page h1 strong {
+  color: #ec5242;
   font-size: 40px;
 }
 
 .home-page h1 span {
+  color: #ec5242;
   font-size: 20px;
 }
 
@@ -110,26 +122,41 @@ a:focus {
   margin-bottom: 20px;
 }
 
+.copy {
+  margin-top: 140px;
+  float: left;
+  font-weight: 700;
+}
+
+.copy b {
+  font-size: 30px;
+}
+
 .about-us {
   display: flex;
   flex-direction: column;
+  padding-top: 30px;
   align-items: center;
-  background-image: url(../images/lightblue.png);
+  background-image: url(../images/abt-bg.jpg);
+  width: 100%;
 }
 
 .about-us p {
   display: flex;
-  width: 80%;
+  width: 100%;
   padding: 10px;
-  color: white;
-  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(104, 102, 102, 0.895);
+  min-height: 100px;
 }
 
 .about-us h1 {
   display: flex;
   float: left;
   font-size: 50px;
-  color: rgb(15, 240, 15);
+  color: #ec5242;
 }
 
 .about-us-descrptn {
@@ -138,11 +165,13 @@ a:focus {
   background-color: white;
   padding-left: 10px;
   padding-bottom: 10px;
+  height: auto;
 }
 
-.about-us-descrptn .inner {
+.courses p {
   display: flex;
-  flex-direction: column;
+  width: 85%;
+  color: white;
 }
 
 .about-us-descrptn .inner p {
@@ -150,41 +179,98 @@ a:focus {
   width: 90%;
 }
 
+.joinUs-section h2 {
+  display: flex;
+  color: white;
+}
+
 .about-us-descrptn .inner h2 {
   display: flex;
-  font-size: 50px;
-  color: rgb(15, 240, 15);
+
+  /* font-size: 20px; */
+}
+
+.courses-section {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;
+  width: 100%;
+}
+
+.courses-section h1 {
+  text-decoration-line: underline;
 }
 
 .course-links {
   display: flex;
   flex-wrap: wrap;
+  row-gap: 50px;
+  column-gap: 15px;
+  background-image: url(../images/program-back.png);
+  background-color: #212529;
   justify-content: center;
+  align-items: center;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px;
   max-width: 100%;
+  min-height: 300px;
 }
 
-.course-links a {
-  display: block;
-  margin: 10px;
+.nav-menu.visible li :hover {
+  text-decoration-line: underline;
 }
 
-.feedback-section :nth-child(n+9) {
+#feedback :nth-child(n+9) {
   display: none;
 }
 
-.course-links a :hover {
-  transform: scale(1.15);
-  opacity: 1;
+.courses a {
+  display: block;
+  margin: 10px;
+  color: rgb(244, 14, 14);
 }
 
-.course-links a img {
-  border-radius: 10px;
-  height: 120px;
-  width: 120px;
+footer .lets-connect a {
+  text-decoration-line: none;
+  display: inline-block;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.top-header li a {
+  color: white;
+}
+
+.courses a:hover {
+  transform: scale(1.15);
+  text-decoration-line: underline;
+}
+
+.courses {
+  color: white;
+  display: flex;
+  row-gap: 5px;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  margin-right: 15px;
+  transform: scale(1.15);
+  align-items: center;
+  height: 240px;
+  max-width: 150px;
+}
+
+.courses:active {
+  border: #fff solid 1px;
 }
 
 .feedback-section {
@@ -192,43 +278,91 @@ a:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(45, 123, 182);
   min-height: 700px;
   width: 100%;
+  padding: 10px;
 }
 
 .feedback-section h1 {
   display: flex;
   width: 100%;
   justify-content: center;
-  color: aliceblue;
+  color: black;
   margin-bottom: 20px;
 }
 
 .feedback-section .inner-container {
   display: grid;
   width: 100%;
+  column-gap: 10px;
+  row-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  justify-content: space-around;
+
+  /* justify-content: space-around; */
 }
 
 .feedback-section .inner-container .cards {
+  display: flex;
+  width: 100%;
   border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
   background-color: white;
 }
 
-.feedback-section .inner-container .cards .profile-name-div {
-  width: 100%;
-  padding: 15px;
+.second-div {
   display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+
+  /* width: auto; */
 }
 
-footer .lets-connect a img {
+.feedback-section .inner-container .cards .profile-name-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-header {
+  position: sticky;
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 24px;
+  padding-right: 192px;
+  color: white;
+  list-style-type: none;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.py-1 {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+/* .top-nav {
+  display: flex;
+   position: fixed;
+background-color: black;
+}
+.top-nav-menu {
+    list-style-type: none;
+      display: flex;
+  float: right;
+}
+.top-nav a img {
   height: 35px;
   width: 35px;
-}
+} */
+
+/* footer .lets-connect a img {
+  height: 35px;
+  width: 35px;
+} */
 
 .bootcamp .bootcamp-div img {
   margin-top: 10px;
@@ -237,9 +371,8 @@ footer .lets-connect a img {
 }
 
 .feedback-section .inner-container .cards .profile-name-div img {
-  width: 50px;
-  height: 50px;
-  border-radius: 15px;
+  width: 80px;
+  height: 100px;
   padding-right: 10px;
 }
 
@@ -255,7 +388,6 @@ footer .lets-connect a img {
 footer .inner-sub-div .footer-text p {
   padding-right: 5px;
   width: 100%;
-  color: white;
 }
 
 .feedback-section .inner-container .cards p {
@@ -266,6 +398,7 @@ footer .inner-sub-div .footer-text p {
 .bootcamp {
   display: flex;
   height: auto;
+  background-color: #212529;
   background-image: url(../images/bootcamp-background.png);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -294,39 +427,21 @@ footer .inner-sub-div .footer-text p {
 .joinUs-section {
   display: flex;
   flex-direction: column;
-  background-image: url(../images/discussion.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% auto;
+  background-color: #151719;
+  box-shadow: 0 2px 8px rgba(248, 247, 247, 0.895);
   align-items: center;
-  justify-content: center;
+  padding: 20px;
 }
 
 .joinUs-content {
   display: flex;
   width: 100%;
-  flex-direction: column;
+  column-gap: 40px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 25px;
   margin: 15px;
-  color: rgb(126, 96, 203);
-}
-
-.joinUs-content .bottom-join-now {
-  display: flex;
-  flex-direction: column;
-  min-height: 60px;
-  text-align: center;
-  color: rgb(255, 255, 255);
-  background-color: rgb(255, 0, 0);
-  border-radius: 25px;
-  justify-content: center;
-  align-items: center;
-  font-size: 30px;
-  width: 300px;
-  margin: 20px 20px 20px 150px;
+  color: rgb(127, 125, 132);
 }
 
 .see-more-btn {
@@ -348,8 +463,39 @@ footer .inner-sub-div .footer-text p {
 footer {
   display: flex;
   flex-direction: column;
+  min-height: 200px;
+  align-items: center;
+  background-color: #fff;
+  justify-content: center;
+}
+
+footer .inner-sub-div .footer-text a {
+  padding-right: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: #151719;
+}
+
+footer .inner-sub-div {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#about-footer {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
   align-items: center;
   justify-content: center;
+  background-color: #151719;
+  color: white;
+}
+
+footer .inner-sub-div .footer-text {
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 footer .lets-connect {
@@ -357,30 +503,22 @@ footer .lets-connect {
   margin-left: 10px;
 }
 
-footer .lets-connect a {
-  text-decoration-line: none;
-  display: inline-block;
-  padding-left: 10px;
-  margin-bottom: 20px;
+#about-footer .lets-connect {
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-footer .inner-sub-div .footer-text a {
-  padding-right: 5px;
-  width: 100%;
-  color: white;
-}
-
-footer .inner-sub-div {
-  color: white;
+#about-footer .inner-sub-div {
   display: block;
   margin-bottom: 10px;
 }
 
-footer .inner-sub-div .footer-text {
-  margin: auto;
+#about-footer .inner-sub-div .footer-text {
+  margin-top: 10px;
   width: 100%;
   padding-left: 10px;
   padding-bottom: 10px;
+  color: white;
 }
 
 .nav-menu.visible {
@@ -397,14 +535,17 @@ footer .inner-sub-div .footer-text {
 }
 
 .nav-menu.visible li a {
-  font-size: 30px;
-  color: rgb(173, 169, 169);
+  /* font-size: 30px; */
+  color: black;
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
 }
 
-.nav-menu.visible li :hover {
-  color: white;
+#about-footer .lets-connect a {
+  text-decoration-line: none;
+  display: inline-block;
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 .nav-menu.visible .join-now-link {
