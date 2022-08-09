@@ -9,63 +9,63 @@ humberger.addEventListener('click', (e) => {
 
 const speakers = [
   {
-    name: 'Benard patcho',
-    un: '@benard',
-    profile: '../images/alewaLogo.png',
+    name: 'Nardii',
+    un: '@nardi',
+    profile: '../images/nardi.png',
     tought:
       "Utop Web is dollar for dollar the best money I've spent on continued education as a developer. So much A+ content.",
   },
   {
     name: 'Meshu Amare',
     un: '@meshu',
-    profile: '../images/myethio.png',
+    profile: '../images/meshu.png',
     tought:
       'What an incredible XSTATE course you have on @Utop Web @DavidKPiano. Amazing tool and amazing way to reach our brains :D',
   },
   {
-    name: 'Surafel Getachew',
-    un: '@surafel',
-    profile: '../images/sekelaLogo.png',
+    name: 'shimekit Adam',
+    un: '@ketkit',
+    profile: '../images/shime.png',
     tought:
       'I’ve been using @Utop Web for years now. It’s crazy seeing it grow over the years. ',
   },
   {
-    name: 'Sonick Mumba',
-    un: '@sonick',
-    profile: '../images/fidle.png',
+    name: 'Degisew Mengist',
+    un: '@dagi',
+    profile: '../images/degisew photo.jpg',
     tought:
       "OMG @sarah_edo's Intro to Vue course on @Utop Web is *so good*. ",
   },
   {
-    name: 'Saeqa sultani',
-    un: '@saeqa',
-    profile: '../images/telebirrLogo.png',
+    name: 'Nigatu Misikir',
+    un: '@mynigat',
+    profile: '../images/nigatu.png',
     tought:
       "I just completed 'JavaScript: The Hard Parts, v2' by @willsentance on @Utop Web! https://t.co/fB36c8Ohiv No better resource for full understanding Closures.",
   },
   {
-    name: 'Sarah edwardo',
-    un: '@sarah',
-    profile: '../images/midroc.jpg',
+    name: 'Habtamu Z',
+    un: '@sebez',
+    profile: '../images/sebez.png',
     tought:
       'Just finished "Accessibility in JavaScript Applications" by @marcysutton on @UtopWeb 🎉 ',
   },
   {
-    name: 'Edmund Ralf',
-    un: '@edmund',
-    profile: '../images/seventhimg.png',
+    name: 'Habit habita',
+    un: '@habit',
+    profile: '../images/habit.png',
     tought:
       'Shout-out to @JemYoung and @willsentance for their amazing courses in @FrontendMasters!! Not only the content is amazing but they are also incredibly easy to watch and stay engaged.',
   },
   {
-    name: 'kasandra captcho',
-    un: '@kasandra',
-    profile: '../images/eightimg.png',
+    name: 'Endex',
+    un: '@endex',
+    profile: '../images/endex.png',
     tought:
       'Im in love with Frontend Masters and @holtbt!! Just working my way through the React lessons and I just love the way @holtbt explains the concepts and configs he runs. Awesome job!! #reactjs',
   },
   {
-    name: 'Degisew Mengist',
+    name: 'Kasanra kaptcho',
     un: '@dagi',
     profile: '../images/tenthimg.png',
     tought:

@@ -227,7 +227,7 @@ a:focus {
   text-decoration-line: underline;
 }
 
-#feedback :nth-child(n+6) {
+#feedback :nth-child(n+9) {
   display: none;
 }
 
