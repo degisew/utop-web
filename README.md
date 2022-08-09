@@ -23,11 +23,6 @@ Run the command below from the Terminal:
 	  cd platform-feature
       
 
-## Live Demo
-
-[Live demo](https://degisew.github.io/)
-
-
 ## Authors
 
 👤 **Degisew**
