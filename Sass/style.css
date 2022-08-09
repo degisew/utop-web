@@ -20,10 +20,6 @@ a {
   text-decoration-line: none;
 }
 
-a:focus {
-  background-color: rgb(21, 19, 22);
-}
-
 .nav-bar {
   background-color: rgb(246, 238, 238);
   box-shadow: 0 2px 8px rgba(10, 9, 9, 0.26);
@@ -491,7 +487,7 @@ footer .inner-sub-div .footer-text a {
   padding-right: 5px;
   margin-top: 15px;
   width: 100%;
-  color: #151719;
+  color: #0b0c0c;
 }
 
 footer .inner-sub-div {
@@ -531,7 +527,7 @@ footer .lets-connect {
   margin-bottom: 10px;
 }
 
-#about-footer .inner-sub-div .footer-text {
+#about-footer .inner-sub-div .about-footer-text {
   margin-top: 10px;
   width: 100%;
   padding-left: 10px;
@@ -564,6 +560,10 @@ footer .lets-connect {
   display: inline-block;
   padding-left: 10px;
   margin-bottom: 20px;
+}
+
+#about-footer .inner-sub-div .about-footer-text a {
+  color: white;
 }
 
 .nav-menu.visible .join-now-link {
