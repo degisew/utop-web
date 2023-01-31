@@ -128,7 +128,7 @@ Feel free to check the [issues page](https://github.com/degisew/utop-web/issues)
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, Kindly you can give a ⭐ to the github.
+If you like this project, Kindly give a ⭐ to the repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
