@@ -79,7 +79,6 @@
 }
 
 .joinUs-section {
-  /* min-height: 250px; */
   font-style: italic;
 }
 
@@ -124,12 +123,7 @@
 }
 
 .feedback-section .inner-container .cards {
-  /* width: 250px; */
   border-radius: 20px;
-
-  /* box-shadow: 0 2px 8px rgba(10, 9, 9, 0.04); */
-
-  /* margin: 10px; */
   background-color: white;
 }
 
@@ -137,12 +131,6 @@
   display: block;
   padding: 10px;
 }
-
-/* .feedback-section .inner-container .cards .profile-name-div img {
-  width: 100px;
-  height: 100px;
-  /* padding-right: 10px;
-} */
 
 .feedback-section .inner-container .cards .tought {
   width: -webkit-fit-content;

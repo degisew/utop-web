@@ -64,6 +64,12 @@ a {
   margin-bottom: 10px;
 }
 
+.profile-name-div img {
+  width: 80px;
+  height: 100px;
+  padding-right: 10px;
+}
+
 .nav-bar button img {
   width: 50px;
   height: 50px;
@@ -170,6 +176,25 @@ a {
   color: white;
 }
 
+.bootcamp-div p {
+  display: block;
+  max-width: 335px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.footer-text p {
+  padding-right: 5px;
+  width: 100%;
+}
+
+.cards p {
+  display: flex;
+  width: 100%;
+}
+
 .about-us-descrptn .inner p {
   display: flex;
   width: 90%;
@@ -180,10 +205,8 @@ a {
   color: white;
 }
 
-.about-us-descrptn .inner h2 {
+.inner h2 {
   display: flex;
-
-  /* font-size: 20px; */
 }
 
 .courses-section {
@@ -227,10 +250,21 @@ a {
   display: none;
 }
 
+.about-footer-text a {
+  color: white;
+}
+
 .courses a {
   display: block;
   margin: 10px;
   color: rgb(244, 14, 14);
+}
+
+.footer-text a {
+  padding-right: 5px;
+  margin-top: 15px;
+  width: 100%;
+  color: #0b0c0c;
 }
 
 footer .lets-connect a {
@@ -265,7 +299,7 @@ footer .lets-connect a {
   max-width: 150px;
 }
 
-.courses:active {
+.courses:hover {
   border: #fff solid 1px;
 }
 
@@ -275,8 +309,6 @@ footer .lets-connect a {
   justify-content: center;
   align-items: center;
   min-height: 700px;
-
-  /* width: 100%; */
   padding: 10px;
 }
 
@@ -288,17 +320,15 @@ footer .lets-connect a {
   margin-bottom: 20px;
 }
 
-.feedback-section .inner-container {
+.inner-container {
   display: grid;
   width: 100%;
   column-gap: 10px;
   row-gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-
-  /* justify-content: space-around; */
 }
 
-.feedback-section .inner-container .cards {
+.cards {
   display: flex;
   width: 100%;
   border-radius: 20px;
@@ -309,11 +339,9 @@ footer .lets-connect a {
   display: flex;
   flex-direction: column;
   line-height: 1.5;
-
-  /* width: auto; */
 }
 
-.feedback-section .inner-container .cards .profile-name-div {
+.profile-name-div {
   display: flex;
   flex-direction: column;
 }
@@ -341,55 +369,10 @@ footer .lets-connect a {
   padding-bottom: 0.25rem !important;
 }
 
-/* .top-nav {
-  display: flex;
-   position: fixed;
-background-color: black;
-}
-.top-nav-menu {
-    list-style-type: none;
-      display: flex;
-  float: right;
-}
-.top-nav a img {
-  height: 35px;
-  width: 35px;
-} */
-
-/* footer .lets-connect a img {
-  height: 35px;
-  width: 35px;
-} */
-
 .bootcamp .bootcamp-div img {
   margin-top: 10px;
   width: 240px;
   height: auto;
-}
-
-.feedback-section .inner-container .cards .profile-name-div img {
-  width: 80px;
-  height: 100px;
-  padding-right: 10px;
-}
-
-.bootcamp .bootcamp-div p {
-  display: block;
-  max-width: 335px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-footer .inner-sub-div .footer-text p {
-  padding-right: 5px;
-  width: 100%;
-}
-
-.feedback-section .inner-container .cards p {
-  display: flex;
-  width: 100%;
 }
 
 .bootcamp {
@@ -404,7 +387,7 @@ footer .inner-sub-div .footer-text p {
   color: white;
 }
 
-.bootcamp .bootcamp-div {
+.bootcamp-div {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -483,14 +466,7 @@ footer {
   justify-content: center;
 }
 
-footer .inner-sub-div .footer-text a {
-  padding-right: 5px;
-  margin-top: 15px;
-  width: 100%;
-  color: #0b0c0c;
-}
-
-footer .inner-sub-div {
+.inner-sub-div {
   display: block;
   margin-bottom: 10px;
 }
@@ -505,7 +481,7 @@ footer .inner-sub-div {
   color: white;
 }
 
-footer .inner-sub-div .footer-text {
+.footer-text {
   margin-top: 10px;
   width: 100%;
   padding-left: 10px;
@@ -527,7 +503,7 @@ footer .lets-connect {
   margin-bottom: 10px;
 }
 
-#about-footer .inner-sub-div .about-footer-text {
+.about-footer-text {
   margin-top: 10px;
   width: 100%;
   padding-left: 10px;
@@ -549,7 +525,6 @@ footer .lets-connect {
 }
 
 .nav-menu.visible li a {
-  /* font-size: 30px; */
   color: black;
   -webkit-text-decoration-line: none;
   text-decoration-line: none;
@@ -560,10 +535,6 @@ footer .lets-connect {
   display: inline-block;
   padding-left: 10px;
   margin-bottom: 20px;
-}
-
-#about-footer .inner-sub-div .about-footer-text a {
-  color: white;
 }
 
 .nav-menu.visible .join-now-link {
