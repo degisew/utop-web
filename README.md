@@ -32,9 +32,35 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
-- SCSS
+- CSS
 - javaScript
-- Linters
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://devdocs.io/html/">HTML5</a></li>
+    <li><a href="https://devdocs.io/css/">CSS</a></li>
+    <li><a href="https://javascript.info/">JavaScript</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li>Not available yet!</li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+<ul>
+  <li>Not available yet!</li>
+  </ul>
+</details>
 
 <!-- Features -->
 
@@ -67,12 +93,17 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git clone <URL> 'https://github.com/degisew/utop-web'
+  git clone 'https://github.com/degisew/utop-web'
 
   cd utop-web
 ```
 ### Install
+Install this project with:
 
+```sh
+  cd utop-web
+  npm install
+```
 
 ### Usage
 
