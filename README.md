@@ -1,52 +1,155 @@
-Online Web development courses
+<a name="readme-top"></a>
 
-The project is inspired by the FrontEdMasters website (https://frontendmasters.com/)
-For this online Web developmen courses website, I implemented Html,SCSS And javaScript that includes the project details in both mobile and desktop.
+<!-- TABLE OF CONTENTS -->
 
- 
-## Built With the following
+# 📗 Table of Contents
 
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 Utop-Web <a name="about-project"></a>
+
+**Utop-Web** is an online web development learning platform that aimed to teach Ethiopian students how to develop a website with their native language.
+
+## 🛠 Built With <a name="built-with"></a>
 - HTML
-- SaSS
+- SCSS
 - javaScript
 - Linters
 
-## Get Started
+<!-- Features -->
 
-Please get your browser update.
-To get a local copy up and running follow these simple steps.
+### Key Features <a name="key-features"></a>
 
-Run the command below from the Terminal:
+- **students can see available courses**
+- **can check details of about us section**
 
-      git clone <URL> 'https://github.com/degisew/web-development-course' in your terminal
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-	  cd platform-feature
-      
+<!-- LIVE DEMO -->
 
-## Authors
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Live Demo Link](https://degisew.github.io/utop-web/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.	  
+
+### Prerequisites
+
+In order to run this project you need:
+- To have updated Browser installed on your machine
+
+### Setup
+Clone this repository to your desired folder:
+
+```sh
+  git clone <URL> 'https://github.com/degisew/utop-web'
+
+  cd utop-web
+```
+### Install
+
+
+### Usage
+
+- To run the project, open index.html file in your favorite browser.
+
+### Run tests
+
+- No tests available yet!
+
+### Deployment
+
+You can deploy this project using:
+
+- [GitHub Pages](https://pages.github.com/)
+- [Netlify](https://app.netlify.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Degisew**
 
 - Location: Ethiopia
 - GitHub: [degisew](https://github.com/degisew)
-- Twitter: [@DJ_etiya](https://twitter.com/Degisew-mengist)
-- LinkedIn: [jegisew21](https://www.linkedin.com/in/degisew-mengist-003298802)
+- Twitter: [@DJ_etiya](https://twitter.com/@DJ_etiya)
+- LinkedIn: [degisew-mengist](https://www.linkedin.com/in/degisew-mengist)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🤝 Contributing
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Will add login page**
+- [ ] **Will add payment methods**
+- [ ] **Will implement back-end part**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/degisew/web-development-course/issues).
+Feel free to check the [issues page](https://github.com/degisew/utop-web/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
-- Thanks to all the FrontEnd Masters team.
-- Thanks to Microverse and my Coding Partners.
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+If you like this project, Kindly you can give a ⭐ to the github.
 
-This project is [MIT](./MIT.md) licensed.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+- I would like to thank the [FrontEnd Masters](https://frontendmasters.com/) 
+  team.
+- I would like to thank the Microverse and my Coding Partners.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/degisew/utop-web/blob/dev/LICENSE) licensed.
+
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
