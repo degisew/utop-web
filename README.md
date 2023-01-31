@@ -66,8 +66,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **students can see available courses**
-- **can check details of about us section**
+- **Users can see available courses**
+- **Users can get more info from about us section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,9 +139,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Will add login page**
-- [ ] **Will add payment methods**
-- [ ] **Will implement back-end part**
+- [ ] **We will add login page**
+- [ ] **We will add payment methods**
+- [ ] **We will implement back-end part**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
