@@ -74,7 +74,7 @@
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Live Demo Link](https://degisew.github.io/utop-web/)
+- [Live Demo Link](https://degisew-utop-web.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
